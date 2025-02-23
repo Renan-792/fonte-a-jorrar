@@ -1,0 +1,213 @@
+*{
+    font-family: inter, "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+nav {
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 25px;
+    gap: 15px;
+}
+
+nav li {
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #064397;
+    padding: 8px;
+    font-weight: 400;
+    border-radius: 30px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #197ec6;
+        transition-duration: 500ms;
+ 
+    }
+}
+
+#banner {
+    }
+
+#banner img {
+    background-size: cover;
+    width: 100%;
+}
+
+#container_cards{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards p {
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.cards span {
+    font-weight: bold;
+}
+
+.element{
+    margin: 6px;
+}
+
+.element_icons {
+    background-color: #4EADE5;
+    padding: 10px;
+    border-radius: 50% ;
+    
+}
+
+.element img{
+    width: 31px;
+}
+
+main{
+    height: 52vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    gap: 2px;
+    background-color: #064397;
+    color: white;
+    width: 280px;
+    font-size: 2.5em;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px 20px 0px;
+}
+
+
+.products{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.products img{
+    width: 56%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 11vw 30px 11vw;
+    margin-bottom: 15px;
+    gap: 5vw;
+ }
+
+section h2 {
+    color: #064397;
+    text-align: right;
+    padding-left: 20px;
+    font-size: 2.1em;
+    width: 50vw;
+}
+
+section p {
+    font-size: 1.5em;
+    width: 50vw;
+    text-align: left;
+    font-weight: 200;
+}
+
+#source{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#source h2 {
+    color: #064397;
+    margin-bottom: 17px;
+}
+
+/* rodapé do site */
+footer{
+    background: rgb(37,37,37);
+    background: linear-gradient(90deg, rgb(25, 27, 76) 0%, rgba(15,37,137,1) 50%, rgb(2, 135, 183) 100%);    color: white;
+    height: 45vh;
+}
+
+
+footer h2 {
+    text-align: center;
+    padding: 38px;
+    font-size: 2em;
+    text-decoration: underline 1px;
+    font-weight: 900;
+}
+
+
+/* informações da loja do rodapé */
+#inform_store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+#media{
+    background-color: #064397;
+}
+
+
+
+#time_work h3 {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+
+#time_work p{
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+#time_work span{
+   font-weight: bold;
+}
+
+address, #time_work {
+    width: 50vw;
+    font-weight: lighter;
+}
+
+address{
+    text-align: right;
+    font-size: 1.8em;
+}
