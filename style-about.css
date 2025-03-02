@@ -1,0 +1,133 @@
+* {box-sizing:border-box;
+  font-family: inter;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav {
+  width: 100vw;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 25px;
+    gap: 15px;
+}
+
+nav li {
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #064397;
+    padding: 8px;
+    font-weight: 400;
+    border-radius: 30px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #197ec6;
+        transition-duration: 500ms;
+ 
+    }
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+header {
+  width: 100vw;
+}
+
+ h2{
+  color: #064397;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 18px ;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+}
+
+
+.depoiments{
+  width: 24vw;
+  font-size: 1.1em;
+  font-style: italic;
+
+}
+
+.depoiments h3 {
+  border-bottom: 4px solid #064397;
+  margin-bottom: 10px;
+
+}
