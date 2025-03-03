@@ -342,47 +342,65 @@ footer h4{
 
             section{
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 flex-direction: column;
-                width: 100vw;
             }
             
             section h2 {
-                width: 90vw;
+                display: flex;
+                justify-content: center;
+                width: 100vw;
                 text-align: center;
-                gap: 0px;
-                font-size: 1.6em;
+                font-size: 1.4em;
                 
             }
             section p {
-                width: 90vw;
+                display: flex;
+                justify-content: center;
+                width: 100vw;
                 text-align: center;
-                font-size: 1.2em;
+                font-size: 1em;
         
             }
         
             #video h2{
                 font-size: 1.2em;
+                 
+                text-align: center;
             }
         
             #video video{
-                width: 400px;
+                width: 350px;
             }
         
             footer h2 {
-                font-size: 1.8em;
+                font-size: 1.5em;
+            }
+
+            #inform_store{
+                display: flex;
+                flex-direction: column;
+
             }
             
             address{
+                width: 100vw;
+                text-align: center;
                 font-size: 1.4em;
-        
             }
-        
+
+            #time_work{
+                width: 100vw;
+                text-align: center;
+            }
+
             #time_work h3{
-                font-size: 1.2em;
+                font-size: 1.1em;
             }
             
             #time_work p{
-                font-size: 1.2em;
+                font-size: 1em;
             }
         
             #selo img{
