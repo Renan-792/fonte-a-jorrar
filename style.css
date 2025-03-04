@@ -66,6 +66,7 @@ nav ul li a {
 }
 
 .element_icons {
+    text-align: center;
     background-color: #4EADE5;
     padding: 10px;
     height: 54px;
@@ -301,7 +302,14 @@ footer h4{
             }
         
             #container_cards{
-                gap: 2px;
+                gap: 20px;
+            }
+
+            .cards{
+                display: block;
+                flex-direction: column;
+                ;
+
             }
             
             .element_icons {
@@ -310,9 +318,14 @@ footer h4{
                 align-items: center;
                 background-color: #4EADE5;
                 padding: 5px;
-                height: 30px;
-                width: 30px;
+                height: 40px;
+                width: 40px;
                 border-radius: 100% ;
+            }
+
+            .element{
+                display: flex;
+                justify-content: center;
             }
         
             .element img{
@@ -320,15 +333,16 @@ footer h4{
             }
         
             .cards p{
-                font-size: .7em;
+                text-align: center;
+                font-size: .8em;
             }
         
             main h1 {
                 background-color: #064397;
                 color: white;
-                font-size: 1.5em;
-                line-height: 30px;
-                text-transform: capitalize;
+                font-size: 1.1em;
+                line-height: 20px;
+                text-transform: capitalize;   
                 text-align: center;
                 border-radius: 0px 20px 0px;
             }
@@ -343,15 +357,14 @@ footer h4{
             section{
                 display: flex;
                 justify-content: center;
-                align-items: center;
                 flex-direction: column;
+                width: 100vw;
+                gap: 10px;
             }
             
             section h2 {
-                display: flex;
-                justify-content: center;
-                width: 100vw;
                 text-align: center;
+                width: 70vw;
                 font-size: 1.4em;
                 
             }
@@ -371,7 +384,7 @@ footer h4{
             }
         
             #video video{
-                width: 350px;
+                width: 380px;
             }
         
             footer h2 {
@@ -406,4 +419,10 @@ footer h4{
             #selo img{
                 width: 20%;
             }
+    }
+
+    @media(max-width: 460px){
+        #video video{
+            width: 320px;
+        }
     }
