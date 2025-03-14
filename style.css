@@ -200,6 +200,9 @@ footer h4{
     margin-left: 15px;
 }
 
+#selo img {
+}
+
 /* edição para tablets */
 @media (max-width: 950px){
     nav li {
